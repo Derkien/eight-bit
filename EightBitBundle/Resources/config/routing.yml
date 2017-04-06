@@ -1,0 +1,12 @@
+eight_bit_home:
+    path:     /
+    defaults: { _controller: EightBitBundle:Default:index }
+eight_bit_get_json_data:
+    path:     /data
+    defaults: { _controller: EightBitBundle:Default:getJsonData }
+eight_bit_get_json_error:
+    path:     /error
+    defaults: { _controller: EightBitBundle:Default:getJsonErr }
+eight_bit_go:
+    path:     /go
+    defaults: { _controller: EightBitBundle:Default:getData }

@@ -1,0 +1,22 @@
+{
+  "name": "derkien/eight-bit-bundle",
+  "description": "Get data from service and show it",
+  "license": "MIT",
+  "type": "test-code",
+  "authors": [
+    {
+      "name": "Sergey Ivanov"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "symfony/symfony": "3.2.*",
+    "twig/twig": "^1.0||^2.0",
+    "sensio/buzz-bundle": "dev-master"
+  },
+  "autoload": {
+    "psr-0": {
+      "Derkien\\EightBitBundle": ""
+    }
+  }
+}

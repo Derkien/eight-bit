@@ -1,0 +1,4 @@
+services:
+    eight_bit.utils.curl_utils:
+        class: Derkien\EightBitBundle\Utils\GetLocations
+        arguments: ["@service_container"]

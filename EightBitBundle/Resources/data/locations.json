@@ -1,0 +1,1 @@
+{ "data": { "locations": [ { "name": "Eiffel Tower", "coordinates": { "lat": 21.12, "long": 19.56} }, { "name": "Cathédrale Notre-Dame de Paris", "coordinates": { "lat": 48.8529682, "long": 2.3477134} }, { "name": "Ostankino TV Tower", "coordinates": { "lat": 55.819725, "long": 37.6094783} }] }, "success": true }

@@ -1,0 +1,15 @@
+<ul>
+<li><a href="/data">Json data</a></li>
+<li><a href="/error">Json error</a></li>
+<li><a href="/go">Get data from service</a></li>
+</ul>
+{% if locations is defined and locations is not empty %}
+    <table>
+        <thead><tr><th rowspan="2">Name</th><th colspan="2">Coordinates</th></tr><tr><th>lat</th><th>long</th></tr></thead>
+        <tbody>
+        {% for location in locations %}
+            <tr><td>{{ location.name }}</td><td>{{ location.coordinates.lat }}</td><td>{{ location.coordinates.long }}</td></tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endif %}
