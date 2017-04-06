@@ -2,7 +2,7 @@
   "name": "derkien/eight-bit-bundle",
   "description": "Get data from service and show it",
   "license": "MIT",
-  "type": "test-code",
+  "type": "symfony-bundle",
   "authors": [
     {
       "name": "Sergey Ivanov"
