@@ -30,5 +30,8 @@ Installing the bundle via packagist is the quickest and simplest method of insta
             // ...
         );
     }
-
+### Step 3: Add routing (for default controller)
+    derkien-eight-bit:
+        resource: '@EightBitBundle/Resources/config/routing.yml'
+        
 That's it! You are ready to use EightBitBundle with symfony3!
