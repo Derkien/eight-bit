@@ -2,7 +2,6 @@
 
 namespace Derkien\EightBitBundle\Controller;
 
-use Doctrine\DBAL\Exception\InvalidArgumentException;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class DefaultController extends Controller
@@ -15,13 +14,13 @@ class DefaultController extends Controller
     /**
      * Render data
      * @return \Symfony\Component\HttpFoundation\Response
-     * @throws InvalidArgumentException
+     * @throws \InvalidArgumentException
      */
     public function getDataAction()
     {
         $host = '';
         if($host == ''){
-            throw new InvalidArgumentException("Set up test url with data");
+            throw new \InvalidArgumentException("Set up test url with data");
         }
         $data = $this->container->get('eight_bit.utils.curl_utils')->getLocations($host);
         return $this->render('@EightBit/Default/index.html.twig', ['locations' => $data]);
